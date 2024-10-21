@@ -1,0 +1,155 @@
+<html>
+    <head></head>
+
+
+    <body style="background-color: rebeccapurple;">
+        <form action="">
+            <fieldset style="background-color: brown;">
+                <legend style="background-color: orange;">Personal Data</legend>
+
+                <br>
+                <fieldset style="background-color: olive;">
+                    <legend style="background-color: blue">
+                        <br>
+                        Your Name
+                        <br><br>
+                    </legend>
+
+                    <br>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="firstName">firstName</label>
+                                </td>
+                                <td>
+                                    : <input required type="text" name="fName" id="firstName">
+                                </td>
+                            </tr>
+                            <!-- lName = omar -->
+                            <tr>
+                                <td>
+                                    <label for="lastName">lastName</label>
+                                </td>
+                                <td>
+                                    : <input type="text" name="lName" id="lastName">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+
+                <br>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="Phone">Phone</label>
+                            </td>
+                            <td>
+                                : <input type="tel" name="uPhone" id="Phone">
+                            </td>
+                        </tr>
+                        <!-- lName = omar -->
+                        <tr>
+                            <td>
+                                <label for="Email">Email</label>
+                            </td>
+                            <td>
+                                : <input type="email" name="uEmail" id="Email">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="password">password</label>
+                            </td>
+                            <td>
+                                : <input type="password" name="uPassword" id="password">
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <label for="rePassword">rePassword</label>
+                            </td>
+                            <td>
+                                : <input type="password" name="uRePassword" id="rePassword">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- gender = value -->
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="male">Male</label>
+                            </td>
+                            <td>
+                                : <input value="male" type="radio" name="gender" id="male">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="feMale">feMale</label>
+                            </td>
+                            <td>
+                                : <input value="feMale" type="radio" name="gender" id="feMale">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="student">student</label>
+                            </td>
+                            <td>
+                                : <input value="student" type="radio" name="status" id="student">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="graduted">graduted</label>
+                            </td>
+                            <td>
+                                : <input value="graduted" type="radio" name="status" id="graduted">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <!-- <label for="uCar">choose a care</label> -->
+                <select name="uCar" id="uCar">
+                    <option value="" selected hidden disabled>choose a car</option>
+                   <optgroup label="bmw">
+                    <option value="bmwi7">bmwi7</option>
+                    <option value="bmwx8">bmwx8</option>
+                   </optgroup>
+
+                   <optgroup label="bmw">
+                    <option value="bmwi7">bmwi7</option>
+                    <option value="bmwx8">bmwx8</option>
+                   </optgroup>
+                </select>
+
+                <br>
+                <br>
+                <button type="submit">
+                    <img src="imgs/submit.png" width="90" alt="">
+                </button>
+                <br>
+                <br>
+            </fieldset>
+        </form>
+    </body>
+</html>
