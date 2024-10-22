@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+.home{
+    background-image:url(images/drew-coffman-1872.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+
+}
+.logo{
+   width: 30%;
+   margin-left: 40px;
+   display: inline-block;
+   vertical-align:middle ;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.nav-links{
+    width: 40%;
+    display: inline-block;
+    vertical-align:middle ;
+    margin-left: 250px;
+
+}
+.nav-links ul{
+    list-style-type: none;
+}
+
+.nav-links ul li a {
+text-decoration: none;
+ color: white;
+ font-size: 18px; 
+}
+
+.nav-links ul li  {
+    display: inline-block;
+    padding: 15px;
+}
+
+.welcome{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+    
+}
+.welcome h4{
+    font-size: 20px;
+}
